@@ -11,7 +11,7 @@ export function Card({ product }: { product: Products }){
 	return(
 		<div className="card">
 			<section className="card-image">
-				<img src="https://images.kabum.com.br/produtos/fotos/128561/console-microsoft-xbox-series-s-500gb-branco-rrs-00006_1601067301_g.jpg" alt="Product image" />
+				<img src={product.foto} alt="Product image" />
 			</section>
 			<section className="card-content">
 				<h2>{product.nome}</h2>
