@@ -1,0 +1,35 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+	height: inherit;
+	position: relative;
+	width: 100%;
+}
+
+.content-container {
+	height: inherit;
+	max-width: 1680px;
+	min-width: 320px;
+	margin-top: 10px;
+	
+	/* adjusting */
+
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: center;
+
+	padding: 2rem;
+
+	text-align: center;
+}
+
+.content-container .main-stream{
+	width: 100%;
+	align-self: center;
+}
+
+.content-container .card {
+	margin: 1rem 2rem;
+}

@@ -1,0 +1,91 @@
+.menu-header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	position: sticky;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+
+	padding: 1rem;
+
+	min-height: 60px;
+
+	background-color: #fff;
+
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-header .icon {
+
+	max-width: 160px;
+
+	width: 3rem;
+
+	min-width: 100px;
+}
+
+.menu-header img {
+	max-width: 100%;
+}
+
+.menu-header .cart {
+	width: 2rem;
+	
+	max-width: 50px;
+	max-height: 40px;
+}
+
+.menu-header .cart button {
+	background: transparent;
+	border: none;
+	padding: 0;
+	width: 100%;
+}
+
+
+/* styles and animation to search bar */
+
+.menu-header .search {
+	max-width: 300px;
+	max-height: 90%;
+
+	position: relative;
+}
+
+.menu-header .search label img {
+	max-height: 100%;
+}
+
+.menu-header .search input {
+	background: transparent;
+
+	border: 0;
+	border-bottom: 1px solid #000a;
+	outline: none;
+
+	transition: all ease-in-out 0.5s;
+
+	color: #000;
+}
+
+.menu-header .search input:focus {
+	transform-origin: right;
+	transform: scale(1.2,1);
+
+	border-bottom: 1px solid #000;
+}
+
+.menu-header .search label {
+	color: #000;
+	font-size: 0.8rem;
+
+	transition: all ease-in-out 0.3s;
+}
+
+.menu-header .search label {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
